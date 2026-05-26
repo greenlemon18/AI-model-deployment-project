@@ -3,7 +3,7 @@ import numpy as np
 import onnxruntime as ort
 
 # ---------- 配置 ----------
-MODEL_PATH = 'runs/detect/robot_model_optimized/weights/best.onnx'
+MODEL_PATH = r'E:\Project_AIDeploy\deploy\runs\detect\robot_model_finetuned_final4\weights\best.onnx'
 CONF_THRESHOLD = 0.6          # 置信度阈值（调低到0.35）
 IOU_THRESHOLD = 0.45           # NMS的IoU阈值（调低到0.45，合并重叠框更积极）
 INPUT_SIZE = (640, 640)
