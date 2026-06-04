@@ -2,6 +2,8 @@
 dataset
 *.cache
 extracted_frames/
+./Yolov5/AGetDate/
+./Yolov5/datasets/
 
 # 模型权重（太大，不提交）
 *.pt
@@ -31,16 +33,21 @@ Thumbs.db
 
 ADataSetProcess.py
 AextracFrames.py
-testvideo.mp4
-1415620985.mp4
 
-#codex工程文件
+# codex工程文件
 codexProject
 instruction
 
-#临时文件和板端项目
+# 临时文件和板端项目
 temp
 OrangePiProject
 
-#资料
+# 资料
 Document
+
+# 杂物
+./Yolov5/train_yolov5_ball.py
+./Yolov5/utils/
+./Yolov5/yolov5/
+./Yolov5/models/
+finance.xlsx
