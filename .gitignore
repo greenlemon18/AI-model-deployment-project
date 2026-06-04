@@ -2,8 +2,8 @@
 dataset
 *.cache
 extracted_frames/
-./Yolov5/AGetDate/
-./Yolov5/datasets/
+Yolov5/AGetDate/
+Yolov5/datasets/
 
 # 模型权重（太大，不提交）
 *.pt
@@ -46,8 +46,8 @@ OrangePiProject
 Document
 
 # 杂物
-./Yolov5/train_yolov5_ball.py
-./Yolov5/utils/
-./Yolov5/yolov5/
-./Yolov5/models/
+Yolov5/train_yolov5_ball.py
+Yolov5/utils/
+Yolov5/yolov5/
+Yolov5/models/
 finance.xlsx
