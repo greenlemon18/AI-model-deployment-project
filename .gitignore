@@ -33,3 +33,14 @@ ADataSetProcess.py
 AextracFrames.py
 testvideo.mp4
 1415620985.mp4
+
+#codex工程文件
+codexProject
+instruction
+
+#临时文件和板端项目
+temp
+OrangePiProject
+
+#资料
+Document
