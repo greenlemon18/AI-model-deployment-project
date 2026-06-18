@@ -4,7 +4,7 @@
 # ====== 除了这些 ======
 !.gitignore
 !README.md
-!Deployment/
+!Deployment/**
 !ModelTraining/
 
 # ====== ModelTraining 内部忽略项 ======
@@ -14,8 +14,6 @@ ModelTraining/Yolov5/train_yolov5_ball.py
 ModelTraining/Yolov5/utils/
 ModelTraining/Yolov5/yolov5/
 ModelTraining/Yolov5/models/
-ModelTraining/Yolov5/runs
-ModelTraining/deploy/runs/detect
 
 # ====== 全局通用 ======
 __pycache__/
@@ -30,3 +28,4 @@ Thumbs.db
 *.swo
 build/
 runs/
+
