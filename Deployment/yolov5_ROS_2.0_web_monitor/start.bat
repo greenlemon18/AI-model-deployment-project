@@ -1,0 +1,1 @@
+cmd /k D:\Software\Anaconda\envs\pytorch1_12\python.exe E:\Project_AIDeploy\Deployment\web_monitor\desktop_client.py
