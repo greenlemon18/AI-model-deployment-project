@@ -1,0 +1,27 @@
+[0.067s] Invoking command in '/home/orangepi/catkin_ws/build/yolov5_vision': /usr/bin/cmake --build /home/orangepi/catkin_ws/build/yolov5_vision -- -j8 -l8
+[0.317s] [ 14%] [32mBuilding CXX object CMakeFiles/vision_node.dir/vision_node.cpp.o[0m
+[13.328s] [ 28%] [32m[1mLinking CXX executable vision_node[0m
+[14.648s] [100%] Built target vision_node
+[14.680s] Invoked command in '/home/orangepi/catkin_ws/build/yolov5_vision' returned '0': /usr/bin/cmake --build /home/orangepi/catkin_ws/build/yolov5_vision -- -j8 -l8
+[14.698s] Invoking command in '/home/orangepi/catkin_ws/build/yolov5_vision': /usr/bin/cmake --install /home/orangepi/catkin_ws/build/yolov5_vision
+[14.709s] -- Install configuration: ""
+[14.710s] -- Installing: /home/orangepi/catkin_ws/install/yolov5_vision/lib/yolov5_vision/vision_node
+[14.712s] -- Set runtime path of "/home/orangepi/catkin_ws/install/yolov5_vision/lib/yolov5_vision/vision_node" to ""
+[14.713s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/ament_index/resource_index/package_run_dependencies/yolov5_vision
+[14.714s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/ament_index/resource_index/parent_prefix_path/yolov5_vision
+[14.714s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/environment/ament_prefix_path.sh
+[14.715s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/environment/ament_prefix_path.dsv
+[14.717s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/environment/path.sh
+[14.717s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/environment/path.dsv
+[14.719s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/local_setup.bash
+[14.720s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/local_setup.sh
+[14.722s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/local_setup.zsh
+[14.723s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/local_setup.dsv
+[14.724s] -- Installing: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/package.dsv
+[14.725s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/ament_index/resource_index/packages/yolov5_vision
+[14.728s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/cmake/yolov5_visionConfig.cmake
+[14.729s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/cmake/yolov5_visionConfig-version.cmake
+[14.730s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/package.xml
+[14.731s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/launch
+[14.732s] -- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/launch/ball_track.launch.py
+[14.733s] Invoked command in '/home/orangepi/catkin_ws/build/yolov5_vision' returned '0': /usr/bin/cmake --install /home/orangepi/catkin_ws/build/yolov5_vision

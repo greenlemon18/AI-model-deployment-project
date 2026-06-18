@@ -1,0 +1,4 @@
+Invoking command in '/home/orangepi/catkin_ws/build/motor_control': /usr/bin/cmake --build /home/orangepi/catkin_ws/build/motor_control -- -j8 -l8
+Invoked command in '/home/orangepi/catkin_ws/build/motor_control' returned '0': /usr/bin/cmake --build /home/orangepi/catkin_ws/build/motor_control -- -j8 -l8
+Invoking command in '/home/orangepi/catkin_ws/build/motor_control': /usr/bin/cmake --install /home/orangepi/catkin_ws/build/motor_control
+Invoked command in '/home/orangepi/catkin_ws/build/motor_control' returned '0': /usr/bin/cmake --install /home/orangepi/catkin_ws/build/motor_control
