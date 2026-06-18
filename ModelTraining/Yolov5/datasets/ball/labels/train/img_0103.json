@@ -1,0 +1,36 @@
+{
+  "version": "6.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "ball",
+      "points": [
+        [
+          107.04289821438374,
+          859.0784091247863
+        ],
+        [
+          207.97082854079454,
+          852.1478085759086
+        ],
+        [
+          189.9578842131167,
+          589.8315522492051
+        ],
+        [
+          89.02995388670593,
+          596.7621527980826
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "oriented_rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "..\\..\\images\\train\\img_0103.jpg",
+  "imageData": null,
+  "imageHeight": 1280,
+  "imageWidth": 720
+}

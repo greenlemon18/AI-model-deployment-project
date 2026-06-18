@@ -1,0 +1,13 @@
+
+cc_library {
+    name: "libawutils",
+    vendor_available: true,
+    export_include_dirs: ["."],
+    whole_static_libs: [
+        "libjpeg",
+    ],
+    srcs: [
+        "*.c",
+    ],
+}
+

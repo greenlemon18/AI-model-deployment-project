@@ -1,0 +1,30 @@
+﻿# ====== 忽略所有 ======
+*
+
+# ====== 除了这些 ======
+!.gitignore
+!README.md
+!Deployment/
+!ModelTraining/
+
+# ====== ModelTraining 内部忽略项 ======
+ModelTraining/Yolov5/AGetDate/
+ModelTraining/Yolov5/datasets/
+ModelTraining/Yolov5/train_yolov5_ball.py
+ModelTraining/Yolov5/utils/
+ModelTraining/Yolov5/yolov5/
+ModelTraining/Yolov5/models/
+
+# ====== 全局通用 ======
+__pycache__/
+*.pyc
+*.pyo
+*.pt
+*.nb
+*.cache
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+build/
+runs/

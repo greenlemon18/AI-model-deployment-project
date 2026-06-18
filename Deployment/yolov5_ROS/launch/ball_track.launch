@@ -1,0 +1,4 @@
+<launch>
+    <node name="vision_node" pkg="yolov5_vision" type="yolov5" output="screen"/>
+    <node name="motor_node"  pkg="motor_control"  type="motor_node" output="screen"/>
+</launch>

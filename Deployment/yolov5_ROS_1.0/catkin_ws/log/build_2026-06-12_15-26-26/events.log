@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.003105] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.003217] (yolov5_vision) JobQueued: {'identifier': 'yolov5_vision', 'dependencies': OrderedDict()}
+[0.003261] (yolov5_vision) JobStarted: {'identifier': 'yolov5_vision'}
+[0.082999] (yolov5_vision) JobProgress: {'identifier': 'yolov5_vision', 'progress': 'cmake'}
+[0.094280] (yolov5_vision) JobProgress: {'identifier': 'yolov5_vision', 'progress': 'build'}
+[0.097936] (yolov5_vision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/catkin_ws/build/yolov5_vision', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/catkin_ws/build/yolov5_vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.1.38 49505 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/'), ('TERM_PROGRAM_VERSION', '1.124.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2dc97379-9c6d-4d0d-9927-4345a5efecb3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/bin/remote-cli:/home/orangepi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-68be23ea64.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/catkin_ws/build/yolov5_vision'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.38 49505 192.168.1.48 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.101338] (-) TimerEvent: {}
+[0.207964] (-) TimerEvent: {}
+[0.308935] (-) TimerEvent: {}
+[0.409797] (-) TimerEvent: {}
+[0.472356] (yolov5_vision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vision_node\x1b[0m\n'}
+[0.509909] (-) TimerEvent: {}
+[0.557368] (yolov5_vision) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/vision_node.dir/yolov5_post_process.cpp.o\x1b[0m\n'}
+[0.610049] (-) TimerEvent: {}
+[0.711412] (-) TimerEvent: {}
+[0.814677] (-) TimerEvent: {}
+[0.915223] (-) TimerEvent: {}
+[1.016088] (-) TimerEvent: {}
+[1.120123] (-) TimerEvent: {}
+[1.220882] (-) TimerEvent: {}
+[1.321953] (-) TimerEvent: {}
+[1.424049] (-) TimerEvent: {}
+[1.524942] (-) TimerEvent: {}
+[1.627761] (-) TimerEvent: {}
+[1.731596] (-) TimerEvent: {}
+[1.832131] (-) TimerEvent: {}
+[1.932662] (-) TimerEvent: {}
+[2.033179] (-) TimerEvent: {}
+[2.134121] (-) TimerEvent: {}
+[2.239604] (-) TimerEvent: {}
+[2.340134] (-) TimerEvent: {}
+[2.441057] (-) TimerEvent: {}
+[2.542000] (-) TimerEvent: {}
+[2.642919] (-) TimerEvent: {}
+[2.743896] (-) TimerEvent: {}
+[2.847803] (-) TimerEvent: {}
+[2.948314] (-) TimerEvent: {}
+[3.048817] (-) TimerEvent: {}
+[3.155733] (-) TimerEvent: {}
+[3.256686] (-) TimerEvent: {}
+[3.357650] (-) TimerEvent: {}
+[3.458689] (-) TimerEvent: {}
+[3.563756] (-) TimerEvent: {}
+[3.664825] (-) TimerEvent: {}
+[3.767727] (-) TimerEvent: {}
+[3.871749] (-) TimerEvent: {}
+[3.972729] (-) TimerEvent: {}
+[4.076023] (-) TimerEvent: {}
+[4.176973] (-) TimerEvent: {}
+[4.278012] (-) TimerEvent: {}
+[4.379007] (-) TimerEvent: {}
+[4.483634] (-) TimerEvent: {}
+[4.584313] (-) TimerEvent: {}
+[4.688100] (-) TimerEvent: {}
+[4.788637] (-) TimerEvent: {}
+[4.889456] (-) TimerEvent: {}
+[4.995599] (-) TimerEvent: {}
+[5.096150] (-) TimerEvent: {}
+[5.197071] (-) TimerEvent: {}
+[5.297981] (-) TimerEvent: {}
+[5.398902] (-) TimerEvent: {}
+[5.499462] (-) TimerEvent: {}
+[5.604086] (-) TimerEvent: {}
+[5.704943] (-) TimerEvent: {}
+[5.805481] (-) TimerEvent: {}
+[5.906030] (-) TimerEvent: {}
+[6.006585] (-) TimerEvent: {}
+[6.111822] (-) TimerEvent: {}
+[6.212639] (-) TimerEvent: {}
+[6.314565] (-) TimerEvent: {}
+[6.415174] (-) TimerEvent: {}
+[6.515795] (-) TimerEvent: {}
+[6.616363] (-) TimerEvent: {}
+[6.712315] (yolov5_vision) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX executable vision_node\x1b[0m\n'}
+[6.719697] (-) TimerEvent: {}
+[6.820628] (-) TimerEvent: {}
+[6.921543] (-) TimerEvent: {}
+[7.023739] (-) TimerEvent: {}
+[7.125740] (-) TimerEvent: {}
+[7.231687] (-) TimerEvent: {}
+[7.332643] (-) TimerEvent: {}
+[7.433580] (-) TimerEvent: {}
+[7.534627] (-) TimerEvent: {}
+[7.640077] (-) TimerEvent: {}
+[7.741105] (-) TimerEvent: {}
+[7.842200] (-) TimerEvent: {}
+[7.943134] (-) TimerEvent: {}
+[8.048088] (-) TimerEvent: {}
+[8.149184] (-) TimerEvent: {}
+[8.255836] (-) TimerEvent: {}
+[8.356745] (-) TimerEvent: {}
+[8.457687] (-) TimerEvent: {}
+[8.558777] (-) TimerEvent: {}
+[8.659700] (-) TimerEvent: {}
+[8.762200] (-) TimerEvent: {}
+[8.863856] (-) TimerEvent: {}
+[8.964830] (-) TimerEvent: {}
+[9.067992] (-) TimerEvent: {}
+[9.171716] (-) TimerEvent: {}
+[9.272678] (-) TimerEvent: {}
+[9.383694] (-) TimerEvent: {}
+[9.484620] (-) TimerEvent: {}
+[9.586116] (-) TimerEvent: {}
+[9.691307] (-) TimerEvent: {}
+[9.792359] (-) TimerEvent: {}
+[9.893330] (-) TimerEvent: {}
+[9.996235] (-) TimerEvent: {}
+[10.103698] (-) TimerEvent: {}
+[10.204677] (-) TimerEvent: {}
+[10.305643] (-) TimerEvent: {}
+[10.411684] (-) TimerEvent: {}
+[10.512596] (-) TimerEvent: {}
+[10.545712] (yolov5_vision) StdoutLine: {'line': b'[100%] Built target vision_node\n'}
+[10.577846] (yolov5_vision) CommandEnded: {'returncode': 0}
+[10.583507] (yolov5_vision) JobProgress: {'identifier': 'yolov5_vision', 'progress': 'install'}
+[10.612705] (-) TimerEvent: {}
+[10.615856] (yolov5_vision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orangepi/catkin_ws/build/yolov5_vision'], 'cwd': '/home/orangepi/catkin_ws/build/yolov5_vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.1.38 49505 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/'), ('TERM_PROGRAM_VERSION', '1.124.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2dc97379-9c6d-4d0d-9927-4345a5efecb3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/bin/remote-cli:/home/orangepi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-68be23ea64.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/catkin_ws/build/yolov5_vision'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.38 49505 192.168.1.48 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[10.654702] (yolov5_vision) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.660185] (yolov5_vision) StdoutLine: {'line': b'-- Installing: /home/orangepi/catkin_ws/install/yolov5_vision/lib/yolov5_vision/vision_node\n'}
+[10.663356] (yolov5_vision) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/catkin_ws/install/yolov5_vision/lib/yolov5_vision/vision_node" to ""\n'}
+[10.664196] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/ament_index/resource_index/package_run_dependencies/yolov5_vision\n'}
+[10.664605] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/ament_index/resource_index/parent_prefix_path/yolov5_vision\n'}
+[10.672310] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/environment/ament_prefix_path.sh\n'}
+[10.673871] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/environment/ament_prefix_path.dsv\n'}
+[10.674338] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/environment/path.sh\n'}
+[10.674713] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/environment/path.dsv\n'}
+[10.675072] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/local_setup.bash\n'}
+[10.679986] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/local_setup.sh\n'}
+[10.680456] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/local_setup.zsh\n'}
+[10.680822] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/local_setup.dsv\n'}
+[10.681186] (yolov5_vision) StdoutLine: {'line': b'-- Installing: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/package.dsv\n'}
+[10.681819] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/ament_index/resource_index/packages/yolov5_vision\n'}
+[10.682191] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/cmake/yolov5_visionConfig.cmake\n'}
+[10.682550] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/cmake/yolov5_visionConfig-version.cmake\n'}
+[10.682907] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/package.xml\n'}
+[10.683262] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/launch\n'}
+[10.683670] (yolov5_vision) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/yolov5_vision/share/yolov5_vision/launch/ball_track.launch.py\n'}
+[10.694334] (yolov5_vision) CommandEnded: {'returncode': 0}
+[10.717350] (-) TimerEvent: {}
+[10.818480] (-) TimerEvent: {}
+[10.845156] (yolov5_vision) JobEnded: {'identifier': 'yolov5_vision', 'rc': 0}
+[10.846083] (-) EventReactorShutdown: {}

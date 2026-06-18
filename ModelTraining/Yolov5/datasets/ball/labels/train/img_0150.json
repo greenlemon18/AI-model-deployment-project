@@ -1,0 +1,28 @@
+{
+  "version": "6.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "ball",
+      "points": [
+        [
+          345.0384642433581,
+          338.38123315740836
+        ],
+        [
+          398.91625615763553,
+          404.53201970443354
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "circle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "..\\..\\images\\train\\img_0150.jpg",
+  "imageData": null,
+  "imageHeight": 1280,
+  "imageWidth": 720
+}

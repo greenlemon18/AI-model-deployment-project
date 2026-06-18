@@ -1,0 +1,4 @@
+train: E:\Project_AIDeploy\Yolov5\datasets\ball\images\train
+val: E:\Project_AIDeploy\Yolov5\datasets\ball\images\val
+nc: 1
+names: ['ball']

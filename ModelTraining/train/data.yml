@@ -1,0 +1,8 @@
+# data.yaml
+path: ../dataset         # 数据集根目录,从 train/ 往上退一级，再进到 dataset 文件夹
+train: images/train      # 训练图片相对路径
+val: images/val          # 验证图片相对路径
+
+# 类别
+nc: 1                    # number of classes（类别数量）
+names: ['target']        # 类别名称列表

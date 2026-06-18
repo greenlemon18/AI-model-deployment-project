@@ -1,0 +1,26 @@
+[0.055s] Invoking command in '/home/orangepi/catkin_ws/build/motor_control': /usr/bin/cmake --build /home/orangepi/catkin_ws/build/motor_control -- -j8 -l8
+[0.189s] [35m[1mConsolidate compiler generated dependencies of target motor_node[0m
+[0.242s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_node.dir/motor_node.cpp.o[0m
+[18.200s] [100%] [32m[1mLinking CXX executable motor_node[0m
+[19.547s] [100%] Built target motor_node
+[19.585s] Invoked command in '/home/orangepi/catkin_ws/build/motor_control' returned '0': /usr/bin/cmake --build /home/orangepi/catkin_ws/build/motor_control -- -j8 -l8
+[19.623s] Invoking command in '/home/orangepi/catkin_ws/build/motor_control': /usr/bin/cmake --install /home/orangepi/catkin_ws/build/motor_control
+[19.684s] -- Install configuration: ""
+[19.711s] -- Installing: /home/orangepi/catkin_ws/install/motor_control/lib/motor_control/motor_node
+[19.721s] -- Set runtime path of "/home/orangepi/catkin_ws/install/motor_control/lib/motor_control/motor_node" to ""
+[19.722s] -- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/ament_index/resource_index/package_run_dependencies/motor_control
+[19.722s] -- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/ament_index/resource_index/parent_prefix_path/motor_control
+[19.723s] -- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/environment/ament_prefix_path.sh
+[19.724s] -- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/environment/ament_prefix_path.dsv
+[19.727s] -- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/environment/path.sh
+[19.729s] -- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/environment/path.dsv
+[19.731s] -- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/local_setup.bash
+[19.733s] -- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/local_setup.sh
+[19.734s] -- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/local_setup.zsh
+[19.736s] -- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/local_setup.dsv
+[19.738s] -- Installing: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/package.dsv
+[19.739s] -- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/ament_index/resource_index/packages/motor_control
+[19.741s] -- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/cmake/motor_controlConfig.cmake
+[19.742s] -- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/cmake/motor_controlConfig-version.cmake
+[19.744s] -- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/package.xml
+[19.745s] Invoked command in '/home/orangepi/catkin_ws/build/motor_control' returned '0': /usr/bin/cmake --install /home/orangepi/catkin_ws/build/motor_control
