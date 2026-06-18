@@ -1,4 +1,0 @@
-Invoking command in '/home/orangepi/catkin_ws/build/yolov5_vision': /usr/bin/cmake --build /home/orangepi/catkin_ws/build/yolov5_vision -- -j8 -l8
-Invoked command in '/home/orangepi/catkin_ws/build/yolov5_vision' returned '0': /usr/bin/cmake --build /home/orangepi/catkin_ws/build/yolov5_vision -- -j8 -l8
-Invoking command in '/home/orangepi/catkin_ws/build/yolov5_vision': /usr/bin/cmake --install /home/orangepi/catkin_ws/build/yolov5_vision
-Invoked command in '/home/orangepi/catkin_ws/build/yolov5_vision' returned '0': /usr/bin/cmake --install /home/orangepi/catkin_ws/build/yolov5_vision
