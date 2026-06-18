@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.001104] (-) JobUnselected: {'identifier': 'yolov5_vision'}
+[0.001774] (motor_control) JobQueued: {'identifier': 'motor_control', 'dependencies': OrderedDict()}
+[0.001977] (motor_control) JobStarted: {'identifier': 'motor_control'}
+[0.055628] (motor_control) JobProgress: {'identifier': 'motor_control', 'progress': 'cmake'}
+[0.060743] (motor_control) JobProgress: {'identifier': 'motor_control', 'progress': 'build'}
+[0.061121] (motor_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/catkin_ws/build/motor_control', '--', '-j8', '-l8'], 'cwd': '/home/orangepi/catkin_ws/build/motor_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.1.38 58510 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/'), ('TERM_PROGRAM_VERSION', '1.124.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-34522488-2e46-4db8-a1f4-d85a5237c7d3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/bin/remote-cli:/home/orangepi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-68be23ea64.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/catkin_ws/build/motor_control'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.38 58510 192.168.1.48 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.099298] (-) TimerEvent: {}
+[0.200086] (-) TimerEvent: {}
+[0.300579] (-) TimerEvent: {}
+[0.316896] (motor_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target motor_node\x1b[0m\n'}
+[0.364987] (motor_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor_node.dir/motor_node.cpp.o\x1b[0m\n'}
+[0.400871] (-) TimerEvent: {}
+[0.501744] (-) TimerEvent: {}
+[0.602657] (-) TimerEvent: {}
+[0.703642] (-) TimerEvent: {}
+[0.804547] (-) TimerEvent: {}
+[0.905546] (-) TimerEvent: {}
+[1.006482] (-) TimerEvent: {}
+[1.107445] (-) TimerEvent: {}
+[1.208494] (-) TimerEvent: {}
+[1.309809] (-) TimerEvent: {}
+[1.410738] (-) TimerEvent: {}
+[1.511741] (-) TimerEvent: {}
+[1.612808] (-) TimerEvent: {}
+[1.713896] (-) TimerEvent: {}
+[1.815298] (-) TimerEvent: {}
+[1.917121] (-) TimerEvent: {}
+[2.018993] (-) TimerEvent: {}
+[2.120867] (-) TimerEvent: {}
+[2.222699] (-) TimerEvent: {}
+[2.324493] (-) TimerEvent: {}
+[2.426243] (-) TimerEvent: {}
+[2.528137] (-) TimerEvent: {}
+[2.629979] (-) TimerEvent: {}
+[2.731907] (-) TimerEvent: {}
+[2.833808] (-) TimerEvent: {}
+[2.935658] (-) TimerEvent: {}
+[3.037460] (-) TimerEvent: {}
+[3.139267] (-) TimerEvent: {}
+[3.240942] (-) TimerEvent: {}
+[3.341977] (-) TimerEvent: {}
+[3.443080] (-) TimerEvent: {}
+[3.544227] (-) TimerEvent: {}
+[3.645349] (-) TimerEvent: {}
+[3.746507] (-) TimerEvent: {}
+[3.847577] (-) TimerEvent: {}
+[3.948562] (-) TimerEvent: {}
+[4.049605] (-) TimerEvent: {}
+[4.150730] (-) TimerEvent: {}
+[4.251847] (-) TimerEvent: {}
+[4.352807] (-) TimerEvent: {}
+[4.453854] (-) TimerEvent: {}
+[4.554969] (-) TimerEvent: {}
+[4.656002] (-) TimerEvent: {}
+[4.757106] (-) TimerEvent: {}
+[4.858123] (-) TimerEvent: {}
+[4.959088] (-) TimerEvent: {}
+[5.060173] (-) TimerEvent: {}
+[5.161158] (-) TimerEvent: {}
+[5.262512] (-) TimerEvent: {}
+[5.364391] (-) TimerEvent: {}
+[5.466228] (-) TimerEvent: {}
+[5.568235] (-) TimerEvent: {}
+[5.670128] (-) TimerEvent: {}
+[5.772082] (-) TimerEvent: {}
+[5.873798] (-) TimerEvent: {}
+[5.975683] (-) TimerEvent: {}
+[6.077533] (-) TimerEvent: {}
+[6.179453] (-) TimerEvent: {}
+[6.281196] (-) TimerEvent: {}
+[6.383082] (-) TimerEvent: {}
+[6.484971] (-) TimerEvent: {}
+[6.586753] (-) TimerEvent: {}
+[6.688666] (-) TimerEvent: {}
+[6.790536] (-) TimerEvent: {}
+[6.892490] (-) TimerEvent: {}
+[6.994377] (-) TimerEvent: {}
+[7.096052] (-) TimerEvent: {}
+[7.197853] (-) TimerEvent: {}
+[7.299662] (-) TimerEvent: {}
+[7.401485] (-) TimerEvent: {}
+[7.503375] (-) TimerEvent: {}
+[7.605215] (-) TimerEvent: {}
+[7.707053] (-) TimerEvent: {}
+[7.808950] (-) TimerEvent: {}
+[7.910818] (-) TimerEvent: {}
+[8.012824] (-) TimerEvent: {}
+[8.114674] (-) TimerEvent: {}
+[8.216619] (-) TimerEvent: {}
+[8.318481] (-) TimerEvent: {}
+[8.420297] (-) TimerEvent: {}
+[8.522163] (-) TimerEvent: {}
+[8.624003] (-) TimerEvent: {}
+[8.725900] (-) TimerEvent: {}
+[8.827681] (-) TimerEvent: {}
+[8.929183] (-) TimerEvent: {}
+[9.029937] (-) TimerEvent: {}
+[9.131325] (-) TimerEvent: {}
+[9.232384] (-) TimerEvent: {}
+[9.333373] (-) TimerEvent: {}
+[9.434369] (-) TimerEvent: {}
+[9.535536] (-) TimerEvent: {}
+[9.636668] (-) TimerEvent: {}
+[9.737847] (-) TimerEvent: {}
+[9.839040] (-) TimerEvent: {}
+[9.940211] (-) TimerEvent: {}
+[10.041178] (-) TimerEvent: {}
+[10.142270] (-) TimerEvent: {}
+[10.243452] (-) TimerEvent: {}
+[10.344545] (-) TimerEvent: {}
+[10.445570] (-) TimerEvent: {}
+[10.546653] (-) TimerEvent: {}
+[10.647668] (-) TimerEvent: {}
+[10.748719] (-) TimerEvent: {}
+[10.849723] (-) TimerEvent: {}
+[10.950769] (-) TimerEvent: {}
+[11.051857] (-) TimerEvent: {}
+[11.153196] (-) TimerEvent: {}
+[11.255172] (-) TimerEvent: {}
+[11.357204] (-) TimerEvent: {}
+[11.459177] (-) TimerEvent: {}
+[11.560952] (-) TimerEvent: {}
+[11.662763] (-) TimerEvent: {}
+[11.764583] (-) TimerEvent: {}
+[11.866010] (-) TimerEvent: {}
+[11.967587] (-) TimerEvent: {}
+[12.069318] (-) TimerEvent: {}
+[12.171103] (-) TimerEvent: {}
+[12.272924] (-) TimerEvent: {}
+[12.374346] (-) TimerEvent: {}
+[12.475742] (-) TimerEvent: {}
+[12.577643] (-) TimerEvent: {}
+[12.679517] (-) TimerEvent: {}
+[12.781409] (-) TimerEvent: {}
+[12.883406] (-) TimerEvent: {}
+[12.985304] (-) TimerEvent: {}
+[13.087092] (-) TimerEvent: {}
+[13.188926] (-) TimerEvent: {}
+[13.290684] (-) TimerEvent: {}
+[13.392617] (-) TimerEvent: {}
+[13.494419] (-) TimerEvent: {}
+[13.596376] (-) TimerEvent: {}
+[13.698237] (-) TimerEvent: {}
+[13.799873] (-) TimerEvent: {}
+[13.900499] (-) TimerEvent: {}
+[14.001011] (-) TimerEvent: {}
+[14.101577] (-) TimerEvent: {}
+[14.202225] (-) TimerEvent: {}
+[14.302857] (-) TimerEvent: {}
+[14.403450] (-) TimerEvent: {}
+[14.504079] (-) TimerEvent: {}
+[14.604733] (-) TimerEvent: {}
+[14.705372] (-) TimerEvent: {}
+[14.806524] (-) TimerEvent: {}
+[14.907499] (-) TimerEvent: {}
+[15.008431] (-) TimerEvent: {}
+[15.109496] (-) TimerEvent: {}
+[15.210551] (-) TimerEvent: {}
+[15.311632] (-) TimerEvent: {}
+[15.412746] (-) TimerEvent: {}
+[15.513836] (-) TimerEvent: {}
+[15.614922] (-) TimerEvent: {}
+[15.716044] (-) TimerEvent: {}
+[15.817050] (-) TimerEvent: {}
+[15.918369] (-) TimerEvent: {}
+[16.020335] (-) TimerEvent: {}
+[16.122233] (-) TimerEvent: {}
+[16.224167] (-) TimerEvent: {}
+[16.325746] (-) TimerEvent: {}
+[16.426430] (-) TimerEvent: {}
+[16.527123] (-) TimerEvent: {}
+[16.627842] (-) TimerEvent: {}
+[16.728367] (-) TimerEvent: {}
+[16.829032] (-) TimerEvent: {}
+[16.929718] (-) TimerEvent: {}
+[17.030407] (-) TimerEvent: {}
+[17.131077] (-) TimerEvent: {}
+[17.231725] (-) TimerEvent: {}
+[17.332190] (-) TimerEvent: {}
+[17.432740] (-) TimerEvent: {}
+[17.533327] (-) TimerEvent: {}
+[17.633821] (-) TimerEvent: {}
+[17.734434] (-) TimerEvent: {}
+[17.835037] (-) TimerEvent: {}
+[17.935660] (-) TimerEvent: {}
+[18.036250] (-) TimerEvent: {}
+[18.136789] (-) TimerEvent: {}
+[18.237417] (-) TimerEvent: {}
+[18.337920] (-) TimerEvent: {}
+[18.438614] (-) TimerEvent: {}
+[18.516523] (motor_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motor_node\x1b[0m\n'}
+[18.538764] (-) TimerEvent: {}
+[18.639462] (-) TimerEvent: {}
+[18.740394] (-) TimerEvent: {}
+[18.841261] (-) TimerEvent: {}
+[18.942185] (-) TimerEvent: {}
+[19.043430] (-) TimerEvent: {}
+[19.144536] (-) TimerEvent: {}
+[19.245422] (-) TimerEvent: {}
+[19.346550] (-) TimerEvent: {}
+[19.448297] (-) TimerEvent: {}
+[19.550085] (-) TimerEvent: {}
+[19.652043] (-) TimerEvent: {}
+[19.750233] (motor_control) StdoutLine: {'line': b'[100%] Built target motor_node\n'}
+[19.752136] (-) TimerEvent: {}
+[19.811446] (motor_control) CommandEnded: {'returncode': 0}
+[19.815272] (motor_control) JobProgress: {'identifier': 'motor_control', 'progress': 'install'}
+[19.852433] (-) TimerEvent: {}
+[19.868071] (motor_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orangepi/catkin_ws/build/motor_control'], 'cwd': '/home/orangepi/catkin_ws/build/motor_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US.UTF-8'), ('USER', 'orangepi'), ('SSH_CLIENT', '192.168.1.38 58510 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/orangepi'), ('OLDPWD', '/'), ('TERM_PROGRAM_VERSION', '1.124.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-34522488-2e46-4db8-a1f4-d85a5237c7d3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'orangepi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/orangepi/.vscode-server/cli/servers/Stable-6928394f91b684055b873eecb8bc281365131f1c/server/bin/remote-cli:/home/orangepi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-68be23ea64.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/orangepi/catkin_ws/build/motor_control'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.38 58510 192.168.1.48 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[19.881727] (motor_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.886482] (motor_control) StdoutLine: {'line': b'-- Installing: /home/orangepi/catkin_ws/install/motor_control/lib/motor_control/motor_node\n'}
+[19.891115] (motor_control) StdoutLine: {'line': b'-- Set runtime path of "/home/orangepi/catkin_ws/install/motor_control/lib/motor_control/motor_node" to ""\n'}
+[19.892484] (motor_control) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/ament_index/resource_index/package_run_dependencies/motor_control\n'}
+[19.893275] (motor_control) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/ament_index/resource_index/parent_prefix_path/motor_control\n'}
+[19.894072] (motor_control) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/environment/ament_prefix_path.sh\n'}
+[19.894801] (motor_control) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/environment/ament_prefix_path.dsv\n'}
+[19.895616] (motor_control) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/environment/path.sh\n'}
+[19.896357] (motor_control) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/environment/path.dsv\n'}
+[19.897079] (motor_control) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/local_setup.bash\n'}
+[19.897803] (motor_control) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/local_setup.sh\n'}
+[19.898524] (motor_control) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/local_setup.zsh\n'}
+[19.899271] (motor_control) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/local_setup.dsv\n'}
+[19.900024] (motor_control) StdoutLine: {'line': b'-- Installing: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/package.dsv\n'}
+[19.900745] (motor_control) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/ament_index/resource_index/packages/motor_control\n'}
+[19.901472] (motor_control) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/cmake/motor_controlConfig.cmake\n'}
+[19.902223] (motor_control) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/cmake/motor_controlConfig-version.cmake\n'}
+[19.903140] (motor_control) StdoutLine: {'line': b'-- Up-to-date: /home/orangepi/catkin_ws/install/motor_control/share/motor_control/package.xml\n'}
+[19.905439] (motor_control) CommandEnded: {'returncode': 0}
+[19.952572] (-) TimerEvent: {}
+[19.986247] (motor_control) JobEnded: {'identifier': 'motor_control', 'rc': 0}
+[19.988459] (-) EventReactorShutdown: {}

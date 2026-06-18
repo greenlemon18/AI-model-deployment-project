@@ -1,0 +1,14 @@
+
+prebuilt_etc {
+    name: "dog.jpg",
+    vendor: true,
+    src: "dog.jpg",
+    sub_dir: "input_data",
+}
+
+prebuilt_etc {
+    name: "dog_640_640.jpg",
+    vendor: true,
+    src: "dog_640_640.jpg",
+    sub_dir: "input_data",
+}

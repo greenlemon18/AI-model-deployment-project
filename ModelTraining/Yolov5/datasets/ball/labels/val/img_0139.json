@@ -1,0 +1,36 @@
+{
+  "version": "6.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "ball",
+      "points": [
+        [
+          380.2081220420762,
+          690.712406476546
+        ],
+        [
+          568.603442654313,
+          811.4309387312105
+        ],
+        [
+          646.4130434782609,
+          690.0
+        ],
+        [
+          458.017722866024,
+          569.2814677453355
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "oriented_rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "..\\..\\images\\val\\img_0139.jpg",
+  "imageData": null,
+  "imageHeight": 1280,
+  "imageWidth": 720
+}

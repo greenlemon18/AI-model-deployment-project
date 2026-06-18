@@ -1,0 +1,3 @@
+/home/orangepi/ai-sdk/examples/yolov5/build/CMakeFiles/yolov5.dir
+/home/orangepi/ai-sdk/examples/yolov5/build/CMakeFiles/edit_cache.dir
+/home/orangepi/ai-sdk/examples/yolov5/build/CMakeFiles/rebuild_cache.dir
