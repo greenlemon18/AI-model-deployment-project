@@ -1,1 +1,1 @@
-cmd /k D:\Software\Anaconda\envs\pytorch1_12\python.exe E:\Project_AIDeploy\Deployment\web_monitor\desktop_client.py
+cmd /k D:\Software\Anaconda\envs\pytorch1_12\python.exe E:\Project_AIDeploy\Deployment\yolov5_ROS_2.0_web_monitor\desktop_client.py
